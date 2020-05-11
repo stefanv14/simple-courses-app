@@ -1,0 +1,95 @@
+.AdminPanel {
+  height:100vh;
+  margin:0 auto;
+  color:#ccc;
+  text-align: center;
+}
+
+.AdminPanel h1 {
+  color:#84CDE6;
+  padding:5% 0;
+}
+
+.Button {
+  width:100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e6a384;
+  color:#333;
+  font-size: 1rem;
+  cursor:pointer;
+  margin:0 auto;
+  font-weight: bold;
+}
+
+.Button:hover {
+  opacity: 0.6;
+}
+
+.Form {
+  display:flex;
+  flex-direction:column;
+  min-height: 100vh;
+  width:30%;
+  background:#333;
+  padding:10px;
+  text-align:center;
+  line-height:50px;
+}
+
+.Select {
+  width:30%;
+  margin-bottom:20px;
+  height:30px;
+  border-radius:10px;
+}
+
+.Username {
+  height:40px;
+  border-radius: 10px;
+  border: none;
+  padding:0 5%;
+}
+
+.NewCourse {
+  display:flex;
+  flex-direction:column;
+  display: none;
+  line-height: 100px;
+}
+
+.AddNewCourse {
+  background-color: #eb5b4d;
+  color:#333;
+  border:none;
+  width:35%;
+  height: 30px;
+  margin:0 auto;
+  margin-top:4%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.AddNewCourse:hover {
+  opacity: 0.6;
+}
+
+.Courses {
+  
+}
+
+.Uppercase {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-position: top left;
+  }
+  .Form {
+    width:100%; 
+    margin-top: 70%;
+  }
+}

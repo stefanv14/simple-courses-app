@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url('./Assets/Images/appBackground2.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: top right;
+  background-position: 430px 0;
+  background-color: #84CDE6;
+
+  /* overflow: hidden; */
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Josefin Slab', serif;}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

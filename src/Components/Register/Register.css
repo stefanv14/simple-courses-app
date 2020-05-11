@@ -1,0 +1,73 @@
+.Login {
+  width: auto;
+  height:100vh;
+  text-align: center;
+  background: rgb(0, 0, 0, 0.6);
+  color: #84cde6;
+  line-height: 3rem;
+}
+  
+.Login h1 {
+  color: #ccc;
+  padding:15px 0;
+}
+
+.LoginForm {
+  width:30%;
+  height: 100vh;
+  background-color:#333;
+}
+
+.Invisible {
+    display: none;
+}
+  
+.Logo {
+  background:url('../../Assets/Images/logo.svg');
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.Inputs {
+  display:flex;
+  flex-direction:column;
+  padding:0 20%;
+  color:#ccc;
+}
+  
+.Button {
+  width:100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e6a384;
+  color:#333;
+  font-size: 1rem;
+  cursor:pointer;
+  margin:15px auto;
+}
+
+.Button:hover {
+  opacity: 0.6;
+}
+
+.Username, .Password, .Email {
+  height:40px;
+  border-radius: 10px;
+  border: none;
+  padding:0 5%;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-position: top left;
+  }
+  .LoginForm {
+    width:100%;
+    margin-top: 70%;
+  }
+}
+
+  
+  
