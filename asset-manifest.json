@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/simple-courses-app/static/css/main.9f8122a6.chunk.css",
+    "main.js": "/simple-courses-app/static/js/main.a7144ba8.chunk.js",
+    "main.js.map": "/simple-courses-app/static/js/main.a7144ba8.chunk.js.map",
+    "runtime-main.js": "/simple-courses-app/static/js/runtime-main.451a57cc.js",
+    "runtime-main.js.map": "/simple-courses-app/static/js/runtime-main.451a57cc.js.map",
+    "static/js/2.f195eae5.chunk.js": "/simple-courses-app/static/js/2.f195eae5.chunk.js",
+    "static/js/2.f195eae5.chunk.js.map": "/simple-courses-app/static/js/2.f195eae5.chunk.js.map",
+    "index.html": "/simple-courses-app/index.html",
+    "precache-manifest.2a807153e147700c7644330ae56620d7.js": "/simple-courses-app/precache-manifest.2a807153e147700c7644330ae56620d7.js",
+    "service-worker.js": "/simple-courses-app/service-worker.js",
+    "static/css/main.9f8122a6.chunk.css.map": "/simple-courses-app/static/css/main.9f8122a6.chunk.css.map",
+    "static/media/index.css": "/simple-courses-app/static/media/appBackground2.66e73c75.svg",
+    "static/media/Register.css": "/simple-courses-app/static/media/logo.483f3136.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.451a57cc.js",
+    "static/js/2.f195eae5.chunk.js",
+    "static/css/main.9f8122a6.chunk.css",
+    "static/js/main.a7144ba8.chunk.js"
+  ]
+}
